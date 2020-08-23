@@ -23,42 +23,42 @@ Modified from Tencent TCPA congestion control algorithm.It's more efficiency,mor
 ## 1.Install dependency
 
 ```shell
-yum install wget
-yum -y install net-tools
+# yum install wget
+# yum -y install net-tools
 ```
 
 ## 2.Change your kernel
 
 ```shell
-wget https://dl.flymc.cc/kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm
-rpm -ivh kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm --force
+# wget https://dl.flymc.cc/kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm
+# rpm -ivh kernel-3.10.0-693.5.2.tcpa06.tl2.x86_64.rpm --force
 ```
 
 ## 3.Reboot
 
 ```shell
-reboot
+# reboot
 ```
 
 ## 5.Download tcpaS
 
 ```shell
-wget https://dl.flymc.cc/tcpas/tcpas_packets.tar.gz
+# wget https://dl.flymc.cc/tcpas/tcpas_packets.tar.gz
 ```
 
 ## 6.Install
 
 ```shell
-tar xf tcpas_packets.tar.gz
-cd tcpas_packets
-sh install.sh
+# tar xf tcpas_packets.tar.gz
+# cd tcpas_packets
+# sh install.sh
 ```
 
 ## 7.Start tcpaS
 
 ```shell
-cd /usr/local/storage/tcpav2
-sh start.sh
+# cd /usr/local/storage/tcpav2
+# sh start.sh
 ```
 
 ## 8.Verify
@@ -76,6 +76,15 @@ tcpa_engine           224249  0
 ```shell
 # wget https://dl.flymc.cc/tcpas/tcpas.sh
 # bash tcpas.sh
+```
+
+---
+
+# Uninstall
+
+```shell
+# cd /usr/local/storage/tcpav2
+# bash unistall.sh
 ```
 
 ---
