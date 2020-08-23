@@ -4,6 +4,8 @@ A algorithm for congestion control modified from TCPA.
 
 Only supported CentOS 7.x now.
 
+Chinese-Simplified document: https://flymc.cc/2020/08/23/tcpaS/
+
 ---
 
 # Intro
