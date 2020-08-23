@@ -23,6 +23,7 @@ Modified from Tencent TCPA congestion control algorithm.It's more efficiency,mor
 ## 1.Install dependency
 
 ```shell
+yum install wget
 yum -y install net-tools
 ```
 
