@@ -1,6 +1,6 @@
 # tcpaS
 
-A algorithm for congestion control from TCPA.
+A algorithm for congestion control modified from TCPA.
 
 Only supported CentOS 7.x now.
 
