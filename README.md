@@ -10,7 +10,7 @@ Chinese-Simplified document: https://flymc.cc/2020/08/23/tcpaS/
 
 # Intro
 
-Modified from Tencent TCPA congestion control algorithm.It's more efficiency,more stable and safer.
+Modified from Tencent TCPA congestion control algorithm.It's more efficiency,more stable and safer,and improve the transmission capacity of large files.
 
 ---
 
