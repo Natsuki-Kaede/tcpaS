@@ -77,7 +77,8 @@ tcpa_engine           224249  0
 
 ```shell
 # wget https://dl.flymc.cc/tcpas/tcpas.sh
-# bash tcpas.sh
+# chmod +x tcpas.sh
+# sh tcpas.sh
 ```
 
 ---
