@@ -87,7 +87,7 @@ tcpa_engine           224249  0
 
 ```shell
 # cd /usr/local/storage/tcpav2
-# bash unistall.sh
+# bash uninstall.sh
 ```
 
 ---
